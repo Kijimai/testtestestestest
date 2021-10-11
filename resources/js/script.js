@@ -7,10 +7,14 @@ const profileImg = $("#self-portrait")
 const aboutImg = $("#about-portrait")
 
 // LIGHT/DARK THEME ==========================
-
-window.onLoad = getStorageTheme
-
 let theme = "light-theme"
+document.addEventListener(
+  "DOMContentLoaded",
+  () => {
+    getStorageTheme()
+  },
+  false
+)
 
 function getStorageTheme() {
   if (localStorage.getItem("theme")) {
