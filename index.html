@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="John Deen Bucog" />
+    <meta
+      name="description"
+      content="Web Developer based in Sacramento, California."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="resources/imgs/goob-favicon.png"
+      type="image/png"
+    />
+    <link href="resources/css/hamburgers.css" rel="stylesheet" />
+    <link rel="stylesheet" href="resources/css/style-copy.css" />
+    <title>John Deen Bucog || Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigator">
+        <div class="nav-small-container">
+          <button
+            title="Click to show navigation options"
+            id="nav-btn"
+            class="nav-btn hamburger hamburger--spring"
+            type="button"
+            role="button"
+            aria-label="navigator button"
+          >
+            <span class="text hamburger-box">
+              <span aria-hidden="true" class="text hamburger-inner"></span>
+            </span>
+          </button>
+          <button
+            title="Activate light or dark mode"
+            id="dark-light-btn"
+            class="dark-light-btn"
+          >
+            <i id="bulb" class="text far fa-lightbulb"></i>
+          </button>
+        </div>
+        <div id="nav-links-container" class="nav-links-container container">
+          <ul class="nav-links">
+            <li class="list-item">
+              <a href="#" class="nav-link text">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#projects" class="nav-link text">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="#about" class="nav-link text">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero site-section">
+        <div class="profile-container">
+          <small class="text">Hi there.</small>
+          <div class="image-container">
+            <figure>
+              <img
+                title="It's a self portrait of me!"
+                id="self-portrait"
+                class="self-portrait"
+                src="/resources/imgs/Profile_Image-desktop.png"
+                alt="cartoon self portrait"
+              />
+            </figure>
+          </div>
+          <div class="profile-info">
+            <h3 class="text">My name is:</h3>
+            <h1 class="text myName">John Deen Bucog</h1>
+            <h2 class="text myJob">Web Developer</h2>
+          </div>
+        </div>
+        <a role="button" class="downarrow text" href="#skills"
+          ><i class="fas fa-arrow-down"></i
+        ></a>
+      </section>
+      <section class="site-section skills container" id="skills">
+        <div class="skill-lists-flex">
+          <div class="skill-list">
+            <figure>
+              <i class="fas fa-code skill-icon text"></i>
+            </figure>
+            <h3 class="text">Dev Skills</h3>
+            <ul>
+              <li class="text">HTML</li>
+              <li class="text">CSS</li>
+              <li class="text">Javascript</li>
+              <li class="text">Bootstrap</li>
+              <li class="text">Jquery</li>
+            </ul>
+          </div>
+          <div aria-hidden="true" class="divider-line text"></div>
+          <div class="skill-list">
+            <figure>
+              <i class="fas fa-book-open text"></i>
+            </figure>
+            <h3 class="text">What I'm learning</h3>
+            <ul>
+              <li class="text">ReactJS</li>
+              <li class="text">Sass</li>
+              <li class="text">NodeJS</li>
+              <li class="text">EJS</li>
+              <li class="text">Express</li>
+              <li class="text">Mongoose/MongoDB</li>
+              <li class="text">Web APIs</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="site-section projects">
+        <h2 class="section-header text">Recent Projects</h2>
+        <div class="big-container">
+          <div class="featured-works">
+            <div class="project-container container">
+              <h3 class="project-title text">
+                Sunnyside Agency - Landing Page
+              </h3>
+              <div class="project-description-container">
+                <p class="text description">
+                  Land page site based off of the Frontend mentor prompt. It was
+                  created using HTML, CSS and Javascript.
+                </p>
+                <a
+                  class="code-link"
+                  href="https://kijimai.github.io/sunnyside-agency-landing-page/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live View</a
+                >
+                <a
+                  class="code-link"
+                  href="https://github.com/Kijimai/sunnyside-agency-landing-page"
+                  target="_blank"
+                  rel="noopener"
+                  >View Code</a
+                >
+              </div>
+            </div>
+            <div class="project-container container">
+              <h3 class="project-title text">
+                Masters of Unlocking - Landing Page
+              </h3>
+              <div class="project-description-container">
+                <p class="text description">
+                  A fake website for a local locksmithing business. The site was
+                  planned and designed by me with assets from shutterstock. It
+                  was created using HTML, CSS and Javascript.
+                </p>
+                <a
+                  class="code-link"
+                  href="https://kijimai.github.io/Locksmith-website/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live View</a
+                >
+                <a
+                  class="code-link"
+                  href="https://github.com/Kijimai/Locksmith-website"
+                  target="_blank"
+                  rel="noopener"
+                  >View Code</a
+                >
+              </div>
+            </div>
+            <div class="project-container container">
+              <h3 class="project-title text">Extreme Rock Paper Scissors</h3>
+              <div class="project-description-container">
+                <p class="text description">
+                  A self directed Javascript exercise that was inspired by
+                  classic fighting games and rock paper scissors.
+                </p>
+                <a
+                  class="code-link"
+                  href="https://kijimai.github.io/extreme-rock-paper-scissors/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live View</a
+                >
+                <a
+                  class="code-link"
+                  href="https://github.com/Kijimai/extreme-rock-paper-scissors"
+                  target="_blank"
+                  rel="noopener"
+                  >View Code</a
+                >
+              </div>
+            </div>
+            <div class="project-container container">
+              <h3 class="project-title text">Splitter / Tip Calculator</h3>
+              <div class="project-description-container">
+                <p class="text description">
+                  A Frontend Mentor junior level challenge created using
+                  Javascript. The app recalculates the user's bill based on the
+                  percentage chosen and the amount of people.
+                </p>
+                <a
+                  class="code-link"
+                  href="https://kijimai.github.io/tip-calculator-app/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live View</a
+                >
+                <a
+                  class="code-link"
+                  href="https://github.com/Kijimai/tip-calculator-app"
+                  target="_blank"
+                  rel="noopener"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="big-container mini-projects">
+          <h2 class="section-header text mini-proj">Other Small Projects</h2>
+          <div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/imageAPI/"
+                target="_blank"
+                rel="noopener"
+                >Unsplash Image API</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Goobbue-Catching-Game-v2/"
+                target="_blank"
+                rel="noopener"
+                >Goobbue Catcher</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Like-my-Goobbue/"
+                target="_blank"
+                rel="noopener"
+                >'Like' the Goobbue</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Goobbue-Theme-Clock/"
+                target="_blank"
+                rel="noopener"
+                >Goobbue Clock</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Drink-Water/"
+                target="_blank"
+                rel="noopener"
+                >Drink Water</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Dad-jokes/"
+                target="_blank"
+                rel="noopener"
+                >Dad Jokes API</a
+              >
+            </div>
+            <div class="mini-projects-container">
+              <a
+                class="project-link text"
+                href="https://kijimai.github.io/Blake-Richardson-Simulator/"
+                target="_blank"
+                rel="noopener"
+                >Drums and Ays!</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-section about" id="about">
+        <h2 class="section-header text outer-about">Who I am</h2>
+        <div class="about-container container">
+          <img
+            class="about-portrait"
+            src="resources/imgs/Self-portrait.jpg"
+            alt="Another silly self portrait"
+          />
+          <div class="about-info container">
+            <h2 class="section-header text inner-about">Who I am</h2>
+            <p class="text description">
+              Back in 2020 I graduated from San Francisco State University with
+              a degree in Fine Art and Animation, but due to the pandemic, I had
+              to retrace my steps and reconsider my situation. I had a very
+              introductory experience to coding many years prior but I never
+              really delved as deep into it until now. Ever since then, I've
+              been hooked to the process of learning and implementing code.
+            </p>
+            <p class="text description">
+              <br />
+              Although I work primarily solo on most of my current work, I'm no
+              stranger to group based projects, so if you'd like to work with
+              me...
+            </p>
+          </div>
+        </div>
+        <a class="email-send text" href="mailto:JohnDeenB@yahoo.com"
+          >Shoot me an email <span class="arrow-right">→</span></a
+        >
+      </section>
+    </main>
+    <footer>
+      <div class="footer-links-container">
+        <h3 class="text">Come check me out on these other sites!</h3>
+        <ul>
+          <li>
+            <a
+              class="site-link text"
+              href="https://github.com/Kijimai"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="site-link text"
+              href="https://www.linkedin.com/in/john-deen-bucog-11059b213/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <small class="footer-copy text"
+        >Site lovingly made by me &copy;
+        <a
+          class="site-link text"
+          href="https://github.com/Kijimai"
+          target="_blank"
+          rel="noopener"
+          >JibbyCodes</a
+        >
+        <span id="currentDate">date</span></small
+      >
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="resources/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
